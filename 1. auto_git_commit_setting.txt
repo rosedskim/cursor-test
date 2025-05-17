@@ -1,0 +1,14 @@
+자동으로 git commit message 생성 with cursor test
+https://docs.cursor.com/more/ai-commit-message
+
+1. Stage the files
+2. 왼쪽 탭에서 Source Control 선택
+3. 반짝이는 아이콘 클릭
+
++ with shortcut
+1. ⌘R ⌘S 또는 ⌘⇧P를 눌러 키보드 단축키를 열고 "Open Keyboard Shortcuts (JSON)"을 검색
+2. ⌘M에 기능을 연결하려면 다음 코드를 추가
+{
+  "key": "cmd+m",s
+  "command": "cursor.generateGitCommitMessage"
+}
